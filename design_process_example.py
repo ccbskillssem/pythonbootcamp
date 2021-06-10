@@ -45,7 +45,6 @@ def get_sequences(filename):
         record_name = ''
         for line in fasta:
             if line.startswith('>'):
-                print('record name: ', line)
                 record_name = line.strip()
                 sequences[record_name] = ''
             else:

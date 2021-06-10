@@ -1,75 +1,169 @@
-'''
-This script will take in file from tgca with the following column names:
-1. cance = cancer
-2. gene = gene
-3. sample = sample id
-4. tumor_methylation = gene methylation in tumors
-5. normal_methylation = gene methylation in normal cells
-6. tumor_expression = gene expression in tumors
-7. normal_expression = gene expression in normal cells
+"""Given a FASTA file, produces k-mer frequency histograms and k-mer indexfor 
+all sequences in the file"""
 
-We want to generate:
-1. a histogram of gene methylation in tumors and non tumors
-2. a histogram of gene expression in tumors and non tumors
-3. a t-test between tumor and normal samples for methylation and expression to determine if the gene is related to a cancer
-4. have the numerical data present somewhere in figure
-'''
-##### import modules #####
 import argparse
+import matplotlib.pyplot as plt
+import numpy as np
 import pandas as pd
-from scipy.stats import ttest_ind # to do the t-test
-import matplotlib.pyplot as plt # to plot the figures
+import design_process_example as handle_sequences
+import argparse_example as handle_kmers
+from modded_script_example import reverse_complement 
 
 
-### create functions ###
-def main(in_path, out_path):
-    '''
-    This function will read in the data from input and:
-    1. Remove columns for which there's missing data for either cancer/normal For methylation and gene expression
-    2. Calculate t-test pvalue for each
-    3. Plot 2 figures (methylation/expression)--make it a histogram
-        - the histogram should have the mean of each data plotted as well has have the p value listed
-        - make sure to label the axis
-    4. save the plots to the file specified in output
-    '''
-    cancer_data             = pd.read_csv(in_path, sep = '\t')
-    
-    ### get expression data first ###
-    expression              = cancer_data.dropna(axis = 0, subset = ['tumor expression', 'normal expression']) # filter data
-    expression_tumor_mean   = round(expression['tumor expression'].mean(), 4) # get mean for tumor
-    expression_normal_mean  = round(expression['normal expression'].mean(), 4) # get mean for normal
-    expression_pval         = ttest_ind(expression['tumor expression'], expression['normal expression']).pvalue # round numbers
-    
-    ### then do methylation data ###
-    methylation             = cancer_data.dropna(axis = 0, subset = ['tumor methylation', 'normal methylation'])
-    methylation_tumor_mean  = round(methylation['tumor methylation'].mean(), 4)
-    methylation_normal_mean = round(methylation['normal methylation'].mean(), 4)
-    methylation_pval        = ttest_ind(methylation['tumor methylation'], methylation['normal methylation']).pvalue
-    
-    ### plot the data ###
-    fig, axs = plt.subplots(nrows = 2, ncols = 1) # initialize figure
-    fig.suptitle('{}'.format(cancer_data.gene.unique()[0])) # Assumes only 1 gene, and it will be the figure title
-    fig.subplots_adjust(hspace=0.4, wspace=0.4) # when I initially plotted, there wasn't enough space between subplots, so I add this
+def extract_all_kmers(sequence, k):
+    """
+    Get all k-mers in sequence, forward and reverse complement
 
-    # do expression first
-    axs[0].hist(expression['tumor expression'], bins = 20, alpha = 0.5, label = 'tumor mean = {}'.format(expression_tumor_mean)) # plots tumor expression
-    axs[0].hist(expression['normal expression'], bins = 20, alpha = 0.5, label = 'normal mean = {}'.format(expression_normal_mean)) # plots normal expression
-    axs[0].legend(loc='upper left')
-    axs[0].set_title('expression p-value = {}'.format(expression_pval))
-    
-    # then methylation
-    axs[1].hist(methylation['tumor methylation'], bins = 20, alpha = 0.5, label = 'tumor mean = {}'.format(methylation_tumor_mean)) # plots tumor methylation
-    axs[1].hist(methylation['normal methylation'], bins = 20, alpha = 0.5, label = 'normal mean = {}'.format(methylation_normal_mean)) # plots normal methylation
-    axs[1].legend(loc='upper left')
-    axs[1].set_title('methylation p-value = {}'.format(methylation_pval))
-    
-    plt.savefig(out_path)
+        Parameters:
+            sequence (string): sequence to decompose into k-mers
+
+        Returns:
+            all_kmers (list): all k-mers in sequence (both forward and reverse 
+                strand)
+    """
+
+    # Get k-mers of forward sequence
+    all_kmers = handle_kmers.extract_kmers(sequence, k)
+
+    # Add k-mers of reverse complement
+    reverse_complement_seq = reverse_complement(sequence)
+    all_kmers += handle_kmers.extract_kmers(reverse_complement_seq, k)
+
+    return all_kmers
 
 
-if __name__ == '__main__':
-    ### set arguments ###
+def get_unique_kmers(sequences, k):
+    """
+    Extracts all unique k-mers among sequences
+
+        Parameters:
+            sequences (dict): Sequences keyed by their FASTA record name
+            k (int): k-mer length
+
+        Returns:
+            unique_kmers (list): the set of all unique k-mers in our sequences
+    """
+
+    # First extract all the k-mers in our sequences and put them into a giant 
+    # list
+    all_kmers = []
+    for record_name in sequences:
+        sequence = sequences[record_name]
+        kmers = extract_all_kmers(sequence, k)
+        all_kmers += kmers
+
+    # Then turn the list into a set to get only the unique k-mers
+    unique_kmers = set(all_kmers)
+
+    return unique_kmers
+
+
+def count_kmers(kmer_index, kmers):
+    """
+    Counts the occurence of every k-mer in a set of k-mers
+
+        Parameters:
+            kmer_index (list): the set of all unique k-mers in our sequences
+            kmers (list): k-mers extracted from the sequence
+
+        Returns:
+            kmer_count (dict): Count of each k-mer keyed by the k-mer string 
+            (example element: 'AAA': 1)
+    """
+    # Initialize empty dictionary keyed by k-mer index
+    kmer_counts = {}
+    for kmer in kmer_index:
+        kmer_counts[kmer] = 0
+
+    # Iterate through kmers in set and increment counts in dict
+    for kmer in kmers:
+        kmer_counts[kmer] += 1
+
+    return kmer_counts
+
+
+def kmer_count_hist(kmer_counts, filename):
+    """
+    Saves a histogram of the k-mer counts
+
+        Parameters:
+            kmer_counts (dict): Count of each k-mer keyed by the k-mer string 
+                (example element: 'AAA': 1)
+            filename (string): Path to output figure
+
+        Returns: k-mer frequency histogram saved to file
+    """
+    # Get the k-mer length (we use this for the x-label but this is optional)
+    kmer_length = len(list(kmer_counts.keys())[0])
+
+    # Get the counts only which we'll use to make the histogram
+    counts = list(kmer_counts.values())
+
+    # Initialize figure object
+    figure, axes = plt.subplots()
+
+    # Make histogram
+    axes.hist(counts)
+
+    # Add some labels 
+    plt.ylabel('Count')
+    plt.xlabel('{}-mer Frequency'.format(kmer_length))
+
+    # Save and close
+    figure.savefig(filename, dpi=300)
+    plt.close(figure)
+
+
+def build_kmer_freq_index(all_kmer_counts):
+    """
+    Builds a k-mer frequency index for all sequences
+        
+        Parameters:
+            all_kmer_counts (dict): Dictionaries of k-mer counts for every 
+            sequence keyed by their sequence name
+
+        Returns:
+            kmer_freq_index (DataFrame): Normalized k-mer frequencies for each 
+                sequence. k-mers are row labels; sequences are column labels 
+    """
+    kmer_freq_index = pd.DataFrame.from_dict(all_kmer_counts).sort_index()
+
+    # Normalize by column sum
+    kmer_freq_index = kmer_freq_index.div(kmer_freq_index.sum(axis=0), axis=1)
+
+    return kmer_freq_index
+
+
+def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument('-i', '--input', help = 'input data file')
-    parser.add_argument('-o', '--output', help = 'output file png')
-    argv = parser.parse_args() # we can call each argument using argv.input and argv.output
-    main(argv.input, argv.output)
+
+    parser.add_argument("-k", help="the k-mer length", type=int, default=3)
+    parser.add_argument("fasta", 
+                        help="the path to the FASTA file with your sequences", 
+                        type=str)
+
+    args = parser.parse_args()
+
+    sequences = handle_sequences.get_sequences(args.fasta)
+    unique_kmers = get_unique_kmers(sequences, args.k)
+
+    all_kmer_counts = {}
+    for record_name in sequences:
+        sequence = sequences[record_name]
+        kmers = extract_all_kmers(sequence, args.k)
+        kmer_counts = count_kmers(unique_kmers, kmers)
+
+        sequence_name = record_name.split(' ')[0][1:]
+        all_kmer_counts[sequence_name] = kmer_counts
+
+        filename = '{}.png'.format(sequence_name)
+        kmer_count_hist(kmer_counts, filename)
+
+    kmer_freq_index = build_kmer_freq_index(all_kmer_counts)
+    kmer_freq_index.to_csv('coronaviruses_freq_index.csv')
+
+
+if __name__ == "__main__":
+    main()
+
+
