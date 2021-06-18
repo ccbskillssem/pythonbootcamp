@@ -1,4 +1,4 @@
-"""Given a FASTA file, produces k-mer frequency histograms and k-mer indexfor 
+"""Given a FASTA file, produces k-mer frequency histograms and k-mer index for 
 all sequences in the file"""
 
 import argparse
@@ -82,36 +82,32 @@ def count_kmers(kmer_index, kmers):
     return kmer_counts
 
 
-def kmer_count_hist(kmer_counts, filename):
+def all_kmer_counts_hist(all_kmer_counts):
     """
-    Saves a histogram of the k-mer counts
-
+    Plots all k-mer counts in one histogram
+        
         Parameters:
-            kmer_counts (dict): Count of each k-mer keyed by the k-mer string 
-                (example element: 'AAA': 1)
-            filename (string): Path to output figure
+            all_kmer_counts (dict): k-mer counts keyed by record name
 
-        Returns: k-mer frequency histogram saved to file
+        Returns:
+            Displays one histogram with all k-mer counts
     """
-    # Get the k-mer length (we use this for the x-label but this is optional)
-    kmer_length = len(list(kmer_counts.keys())[0])
 
-    # Get the counts only which we'll use to make the histogram
-    counts = list(kmer_counts.values())
+    # Initialize subplots
+    fig, axes = plt.subplots(1, len(all_kmer_counts), sharey=True)
 
-    # Initialize figure object
-    figure, axes = plt.subplots()
+    # Increase space between plots so axis don't overlap
+    fig.subplots_adjust(wspace=0.5)
 
-    # Make histogram
-    axes.hist(counts)
+    # Iterate through Axes and k-mer counts and populate subplots with 
+    # histograms
+    for ax, record_name in zip(axes, all_kmer_counts):
+        kmer_counts = all_kmer_counts[record_name]
+        counts = list(kmer_counts.values())
+        ax.hist(counts)
+        ax.set_title(record_name)
 
-    # Add some labels 
-    plt.ylabel('Count')
-    plt.xlabel('{}-mer Frequency'.format(kmer_length))
-
-    # Save and close
-    figure.savefig(filename, dpi=300)
-    plt.close(figure)
+    plt.show()
 
 
 def build_kmer_freq_index(all_kmer_counts):
@@ -156,8 +152,7 @@ def main():
         sequence_name = record_name.split(' ')[0][1:]
         all_kmer_counts[sequence_name] = kmer_counts
 
-        filename = '{}.png'.format(sequence_name)
-        kmer_count_hist(kmer_counts, filename)
+    all_kmer_counts_hist(all_kmer_counts)
 
     kmer_freq_index = build_kmer_freq_index(all_kmer_counts)
     kmer_freq_index.to_csv('coronaviruses_freq_index.csv')
@@ -165,5 +160,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-
