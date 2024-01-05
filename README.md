@@ -47,7 +47,7 @@ Cheat sheets are included in each subdirectory. Credits are provided below.
 | **Day 5** | DataCamp |
 
 ## Authorship
-Notebooks and curriculum were originally developed by [Stacy Li](stacy.li) in Summer 2022.
+Current notebooks and curriculum were developed by [Stacy Li](stacy.li) in Summer 2022, with exercises contributed by PyCamp staff in the years following. Pre-2022 notebooks were developed by previous generations of PyCamp staff.
 
 ## License
 This repository is licensed under the [CC 4.0 license](https://creativecommons.org/licenses/by/4.0/). You are free to share, redistribute, and adapt these notebooks, although we request that you provide a link to this repository.
