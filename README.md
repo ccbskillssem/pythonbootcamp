@@ -19,7 +19,7 @@ This is a repository containing the notebooks, datasets, and visual assets for C
 Each notebook is intended to be a lesson on a particular unit of Python. 
 
 | Day | Content | Lecture Notebooks |
-| ---- | ------ |
+| ---- | ------ | ------ |
 | **Day 1** (Monday) | Interacting with Google Colaboratory. Introduction to types, lists, tuples, sets, dictionaries. Indexing and slicing iterables. Built-in functions. Boolean logic and simple control flow. | [Monday lecture](https://drive.google.com/drive/folders/1M6ArM2uBbPkgdBLFcvr3K2EpKzS5zVcq?usp=sharing) |
 | **Day 2** (Tuesday) | Review basic data structures and methods. Writing custom functions. Introduction to external packages (`numpy`). | [Tuesday lecture](https://drive.google.com/drive/folders/1JU_ItTNads_KM3rzfO_Zay2hOf5KD7OV?usp=sharing) |
 | **Day 3** (Wednesday) | Review and cover more detail on arrays. Mini-projects on data cleaning, exploration, and basic visualization with the `badhealth` and `hepatocellular` datasets. | [Wednesday lecture](https://drive.google.com/drive/folders/174SG_XVhjFMHnRfYza7ozw3zPjucbM61?usp=sharing) |
