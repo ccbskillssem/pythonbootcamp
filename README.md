@@ -18,13 +18,13 @@ This is a repository containing the notebooks, datasets, and visual assets for C
 ## Notebook contents
 Each notebook is intended to be a lesson on a particular unit of Python. 
 
-| Day | Content |
+| Day | Content | Lecture Notebooks |
 | ---- | ------ |
-| **Day 1** (Monday) | Interacting with Google Colaboratory. Introduction to types, lists, tuples, sets, dictionaries. Indexing and slicing iterables. Built-in functions. Boolean logic and simple control flow. |
-| **Day 2** (Tuesday) | Review basic data structures and methods. Writing custom functions. Introduction to external packages (`numpy`). |
-| **Day 3** (Wednesday) | Review and cover more detail on arrays. Mini-projects on data cleaning, exploration, and basic visualization with the `badhealth` and `hepatocellular` datasets. |
-| **Day 4** (Thursday) | Introduction to `pandas` operations: indexing, slicing, querying, filtering, merging. Exploration of the `clinvar` dataset.|
-| **Day 5** (Friday) | Final mini-project: synthesizing content to analyze a subset of the [Tabula Muris Senis](https://www.nature.com/articles/s41586-020-2496-1) dataset.|
+| **Day 1** (Monday) | Interacting with Google Colaboratory. Introduction to types, lists, tuples, sets, dictionaries. Indexing and slicing iterables. Built-in functions. Boolean logic and simple control flow. | [Monday lecture](https://drive.google.com/drive/folders/1M6ArM2uBbPkgdBLFcvr3K2EpKzS5zVcq?usp=sharing)
+| **Day 2** (Tuesday) | Review basic data structures and methods. Writing custom functions. Introduction to external packages (`numpy`). | [Tuesday lecture](https://drive.google.com/drive/folders/1JU_ItTNads_KM3rzfO_Zay2hOf5KD7OV?usp=sharing)
+| **Day 3** (Wednesday) | Review and cover more detail on arrays. Mini-projects on data cleaning, exploration, and basic visualization with the `badhealth` and `hepatocellular` datasets. | [Wednesday lecture](https://drive.google.com/drive/folders/174SG_XVhjFMHnRfYza7ozw3zPjucbM61?usp=sharing)
+| **Day 4** (Thursday) | Introduction to `pandas` operations: indexing, slicing, querying, filtering, merging. Exploration of the `clinvar` dataset.| [Thursday lecture](https://drive.google.com/drive/folders/1LbBEDQVrZc2KWXXZxOzPiixyMTpUUGly?usp=sharing)
+| **Day 5** (Friday) | Final mini-project: synthesizing content to analyze a subset of the [Tabula Muris Senis](https://www.nature.com/articles/s41586-020-2496-1) dataset.| [Friday lecture](https://drive.google.com/drive/folders/1aVRhVEBH-hdPSKcC41BFb9lYfBj4g-6A?usp=sharing)
 
 ## Datasets
 All datasets used in these materials are derived from publicly available data.
