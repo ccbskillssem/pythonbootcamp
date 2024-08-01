@@ -9,12 +9,12 @@ Presented by the [Center for Computational Biology](ccb.berkeley.edu). Please co
 This is a repository containing the notebooks, datasets, and visual assets for CCB's Python Bootcamp.
 
 ## Table of contents
-- [Lecture notebooks](#Lecture-notebooks)
-- [Zoom](#Zoom)
-- [Slack](#Slack)
-- [Datasets](#Datasets)
-- [FAQs](#FAQs)
-- [Authorship](#Authorship)
+- [Lecture notebooks](#lecture-notebooks)
+- [Zoom](#zoom)
+- [Slack](#slack)
+- [Datasets](#datasets)
+- [FAQs](#faqs)
+- [Authorship](#authorship)
 - [License](#license)
 
 ## Zoom
