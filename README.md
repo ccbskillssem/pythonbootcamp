@@ -17,7 +17,7 @@ This is a repository containing the notebooks, datasets, and visual assets for C
 - [License](#license)
 
 ## Zoom
-Link to the zoom [here](https://berkeley.zoom.us/s/97071151872). Lectures are recorded and will be posted on the PyCamp slack when they are ready!
+Link to the zoom is [here](https://berkeley.zoom.us/s/97071151872). Lectures are recorded and will be posted on the PyCamp slack when they are ready!
 
 ## Slack
 
