@@ -27,7 +27,7 @@ Link to the zoom is [here](https://berkeley.zoom.us/j/93450832208). Lectures are
 | ---- | ------ | ------ |
 | Monday | [link](https://berkeley.zoom.us/rec/share/VhR3k6Nh9Mjb7X05k1d1MsCCdR84udk0IT1s35pg87A3na-bCZCVkfQ2dLXXaKqV.UFPUkiGGD0Qxgnrb) | Dh#+a8vW 
 | Tuesday | [morning](https://berkeley.zoom.us/rec/share/EAmMyHo7ZHsLx3H_XScOdjFUfL1LvKH9iXRxUOeCRn5MjwaUoqfeofDygxOkqMI5.G1xnUOdO1lJSxuR7) [afternoon](https://berkeley.zoom.us/rec/share/N6Q9Xowt6PsIDeFi4y8OGHSyS1ImwrYMD42b-n-pJ95v8L_dGZuqwmHFtzOmeWJj.T1WpeB5HSi9m3iP7) | morning: yv2?MY43 afternoon: KHAs.X60
-| Wednesday | |
+| Wednesday | [link](https://berkeley.zoom.us/rec/share/IAl2tEpDjlmgWLHC_4gxtpYJQkvr6VPSBSuO3ezkFdrZVVFSCPq9HmTRUqDdg_F3.LgMUHrQwaixx3tSp)| s!o9Phqx
 | Thursday | |
 | Friday | |
 
