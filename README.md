@@ -29,7 +29,7 @@ Link to the zoom is [here](https://berkeley.zoom.us/j/92092223275). Lectures are
 | Tuesday | [recording](https://berkeley.zoom.us/rec/share/4npU3ifx5kK7e2YlsoW0GsGhDELXdaOxIOAj8DwLhXw7rN5YBE3QfviFuE7fg3Y.G0JqLrr19R6gHLA9) | S@!82Tl3
 | Wednesday | [recording](https://berkeley.zoom.us/rec/share/FedjZVOz0a_UoGBXTOqsaRw8iRi3zahKNokrqWhXsxwVf_hQeCSJeOrsG_F-xhlu.HGL3trMVbog_uOBT)| qEL%Ny3d 
 | Thursday | [recording](https://berkeley.zoom.us/rec/share/tRQoQJZhWqAmLfBOkJxpVu7rOW4kXFdq9-6q5mQr-6YVNFrfRSt956rEOY0A5u5R.BSFzZA1kDhYASApU) | =$Axe4JC
-| Friday | [recording 1](https://berkeley.zoom.us/rec/share/mZBQs_GfyzRJKEch0rMxtAGgl1Ghhe2sJF3UCFrCFSsQVVs36RAKo8Mjw0vxgP9v.cOK2gESvrQvI282p?startTime=1737133991000) [recording 2](https://berkeley.zoom.us/rec/share/mZBQs_GfyzRJKEch0rMxtAGgl1Ghhe2sJF3UCFrCFSsQVVs36RAKo8Mjw0vxgP9v.cOK2gESvrQvI282p?startTime=1737150523000) | ml8+A5J 
+| Friday | [recording 1](https://berkeley.zoom.us/rec/share/mZBQs_GfyzRJKEch0rMxtAGgl1Ghhe2sJF3UCFrCFSsQVVs36RAKo8Mjw0vxgP9v.cOK2gESvrQvI282p?startTime=1737133991000) [recording 2](https://berkeley.zoom.us/rec/share/mZBQs_GfyzRJKEch0rMxtAGgl1Ghhe2sJF3UCFrCFSsQVVs36RAKo8Mjw0vxgP9v.cOK2gESvrQvI282p?startTime=1737150523000) | ml8+A5J. 
 
 
 
