@@ -25,7 +25,7 @@ Link to the zoom is [here](). Lectures are recorded and will be posted on the Py
 
 | Day | Zoom recording | password |
 | ---- | ------ | ------ |
-| Monday | [recording 1](); [recording 2](); [recording 3]()| 
+| Monday | [recording]()| 
 | Tuesday | [recording]() | 
 | Wednesday | [recording]()|
 | Thursday | [recording]() | 
