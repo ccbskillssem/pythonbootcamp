@@ -29,7 +29,7 @@ Link to the zoom is [here](). Lectures are recorded and will be posted on the Py
 | Tuesday | [recording]() | 
 | Wednesday | [recording]()|
 | Thursday | [recording]() | 
-| Friday | [recording 1]() [recording 2]() | 
+| Friday | [recording]() | 
 
 
 
