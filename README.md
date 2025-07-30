@@ -35,7 +35,7 @@ Link to the zoom is [here](). Lectures are recorded and will be posted on the Py
 
 ## Slack
 
-Make sure to sign up for our slack [here](https://join.slack.com/t/ccbpycampsummer2025/shared_invite/zt-3aaypujs6-6JETne5BwaIwMEndgi3DHQ ). All PyCamp-related communication will be done through slack.
+Make sure to sign up for our slack [here](https://join.slack.com/t/ccbpycampsummer2025/shared_invite/zt-3aaypujs6-6JETne5BwaIwMEndgi3DHQ). All PyCamp-related communication will be done through slack.
 
 ## Lecture notebooks
 Each notebook is intended to be a lesson on a particular unit of Python. 
