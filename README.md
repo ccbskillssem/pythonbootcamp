@@ -25,7 +25,7 @@ Link to the zoom is [here](https://berkeley.zoom.us/j/92582693181). Lectures are
 
 | Day | Zoom recording | password |
 | ---- | ------ | ------ |
-| Monday | [recording]()| 
+| Monday | [recording](https://drive.google.com/file/d/12TBVjZgkwdjDIbcWTaJiAyaDWDXe3wfy/view?usp=drive_link)| 
 | Tuesday | [recording]() | 
 | Wednesday | [recording]()|
 | Thursday | [recording]() | 
