@@ -27,7 +27,7 @@ Link to the zoom is [here](https://berkeley.zoom.us/j/92582693181). Lectures are
 | ---- | ------ | ------ |
 | Monday | [recording](https://drive.google.com/file/d/12TBVjZgkwdjDIbcWTaJiAyaDWDXe3wfy/view?usp=drive_link)| 
 | Tuesday | [recording](https://berkeley.zoom.us/rec/share/rHZda36bx9XTDifI41WISkDJ6LK36xgC-5JYgmmCM16dm10x9J36aWCTgGhO88nv.iXwmFSGY2-mgo9qw) | g$g?7w2j
-| Wednesday | [recording]()|
+| Wednesday | [recording](https://berkeley.zoom.us/rec/share/qE9NCpEX74hLDDN2Qo_FZ-hd5VNIb7_8AlvfHfHRAQq6xiTtGBzIlKPz_rk515h3.BDc0-Bpdkfcy9BkU)| =FiB1dnv
 | Thursday | [recording]() | 
 | Friday | [recording]() | 
 
