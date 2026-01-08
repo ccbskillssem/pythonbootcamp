@@ -25,28 +25,29 @@ Link to the zoom is [here](https://berkeley.zoom.us/j/92582693181). Lectures are
 
 | Day | Zoom recording | password |
 | ---- | ------ | ------ |
-| Monday | [recording](https://drive.google.com/file/d/12TBVjZgkwdjDIbcWTaJiAyaDWDXe3wfy/view?usp=drive_link)| 
-| Tuesday | [recording](https://berkeley.zoom.us/rec/share/rHZda36bx9XTDifI41WISkDJ6LK36xgC-5JYgmmCM16dm10x9J36aWCTgGhO88nv.iXwmFSGY2-mgo9qw) | g$g?7w2j
-| Wednesday | [recording](https://berkeley.zoom.us/rec/share/qE9NCpEX74hLDDN2Qo_FZ-hd5VNIb7_8AlvfHfHRAQq6xiTtGBzIlKPz_rk515h3.BDc0-Bpdkfcy9BkU)| =FiB1dnv
-| Thursday | [recording](https://berkeley.zoom.us/rec/share/aokyOGz9upfv6KNOz2MtucYOuuyHjjnKMAGJBQmn0gzJ0GvRkoYK2gFzUs-G2poz.2Oe8TLoBXfjW4dPv) | ?+3M8r#8
-| Friday | [recording](https://berkeley.zoom.us/rec/share/BfqRfB2krxJrY6j_d3b-VCR8BMjE_FIpIUwrUIFFEwRccTjAZXZJ4JzACYaGP5IB.cl6wMgMcVbvvEuOD) | sjc2B4@S
+| Monday | [recording]()| 
+| Tuesday | [recording]() | 
+| Wednesday | [recording]()| 
+| Thursday | [recording]() | 
+| Friday | [recording]() | 
 
 
 
 ## Slack
 
-Make sure to sign up for our slack [here](https://join.slack.com/t/ccbpycampsummer2025/shared_invite/zt-3aaypujs6-6JETne5BwaIwMEndgi3DHQ). All PyCamp-related communication will be done through slack.
+Make sure to sign up for our slack [here](). All PyCamp-related communication will be done through slack.
 
 ## Lecture notebooks
 Each notebook is intended to be a lesson on a particular unit of Python. 
 
 | Day | Content | AM Notebook | PM Notebook | Cheat sheet | Solutions |
 | ---- | ------ | ------ | ------ | ------ | ------ |
-| **Day 1** (Monday) | Interacting with Google Colaboratory. Introduction to types, lists, tuples, sets, dictionaries. Indexing and slicing iterables. Built-in functions. Boolean logic and simple control flow. | [Monday AM](https://colab.research.google.com/drive/1UJdWZqEKnJRaCu_6GJCqdJfJUBiUlbWw) | [Monday PM](https://colab.research.google.com/drive/1XQhkPiDeG_KhMd-vUzsXDvJr_9brbAzG) | [Day 1 cheatsheet](https://drive.google.com/file/d/1qdoaHMW_ogV4yU7MHtOnyVxIR0CxWfr2/view?usp=sharing) | [AM solutions](https://colab.research.google.com/drive/17G-G6MwxhVhVDkkHM31Z1tmzmWTWgwZV) [PM solutions](https://colab.research.google.com/drive/1WvbY4q7TB0bUGLK9_Gi_61aFdedANisW) |
-| **Day 2** (Tuesday) | Review basic data structures and methods. Writing custom functions. Introduction to external packages (`numpy`). | [Tuesday AM](https://colab.research.google.com/drive/11Yz1uhsKTHvtktVEUdS3KpY9-lLT6Z-U) | [Tuesday PM](https://colab.research.google.com/drive/1M_CMRnWCXPz7kXo0j5IVhMowb2-1Rzg1) | [Day 2 cheatsheet](https://drive.google.com/file/d/1cPx2l9xlnq5eD26J3ePTj4C4k4QURYr-/view?usp=sharing) | [AM solutions](https://colab.research.google.com/drive/1GKGzAWUSA_CdILWPl25fmKva7_65WLUJ) [PM solutions](https://colab.research.google.com/drive/1xirPNkhi4NboRRjdajE_qou1icXSx-qH) | 
-| **Day 3** (Wednesday) | Review and cover more detail on arrays. Mini-projects on data cleaning, exploration, and basic visualization with the `badhealth` and `hepatocellular` datasets. | [Wednesday AM](https://drive.google.com/file/d/1-NcDao-sugwbWsehaamo70Q_WxLzE1Jf/view?usp=share_link) | [Wednesday PM](https://drive.google.com/file/d/1-NcDao-sugwbWsehaamo70Q_WxLzE1Jf/view?usp=share_link) | [Day 3 cheatsheet](https://drive.google.com/file/d/1s_DL4l23ihlWRFca5E0odreIUEcvXe7z/view?usp=sharing) | [AM solutions](https://drive.google.com/file/d/1h8vtUVIG8uhQLP110OyLkqYcNpbXScsi/view?usp=share_link) [PM solutions](https://drive.google.com/file/d/1-NcDao-sugwbWsehaamo70Q_WxLzE1Jf/view?usp=share_link)| 
-| **Day 4** (Thursday) | Introduction to `pandas` operations: indexing, slicing, querying, filtering, merging. Exploration of the `clinvar` dataset.| [Thursday AM](https://colab.research.google.com/drive/1LeXMhaDLX5kZz_qFH5eKaI1rPP6qWXcD) | [Thursday PM](https://drive.google.com/file/d/1zUfnoj7e-8dPbTBDabV3XRJHwvRYrmzp/view?usp=share_link) | [Day 4 cheatsheet](https://drive.google.com/file/d/1Fc9Obxer6ymy2gGVrVLJJ7SmVniFy8Rj/view?usp=sharing) | [AM solutions](https://colab.research.google.com/drive/1JDOggm95NCmm5P9Ovh50ogVdpHdFJvYp) [PM solutions](https://colab.research.google.com/drive/1nqp0rhHyQV6eDBmNRUbr12n2WZITVGbW) |
-| **Day 5** (Friday) | Introduction to Machine Learning and running Python locally | [Friday AM](https://drive.google.com/file/d/1U9cbKpszGrdPjAJNSx8qY_WFm1UYhZJc/view?usp=share_link) | [Friday PM](https://drive.google.com/file/d/1z9EQd8qnN1LXdM6D0OcbZ87lv487azsC/view?usp=share_link) | [Day 5 cheatsheet]() | [AM solutions](https://drive.google.com/file/d/1bA0KUzvNZ977Ye6SLDDWiy4SEARcDPJR/view?usp=sharing) [PM solutions](https://colab.research.google.com/drive/1Mn3icqxPFuYlxucqWXUfGYsYgkhoMWym) |
+| **Day 1** (Monday) | Interacting with Google Colaboratory. Introduction to types, lists, tuples, sets, dictionaries. Indexing and slicing iterables. Built-in functions. Boolean logic and simple control flow. | [Monday AM]() | [Monday PM]() | [Day 1 cheatsheet](https://drive.google.com/file/d/1qdoaHMW_ogV4yU7MHtOnyVxIR0CxWfr2/view?usp=sharing) | [AM solutions]() [PM solutions]() |
+| **Day 2** (Tuesday) | Review basic data structures and methods. Writing custom functions. Introduction to external packages (`numpy`). | [Tuesday AM]() | [Tuesday PM]() | [Day 2 cheatsheet](https://drive.google.com/file/d/1cPx2l9xlnq5eD26J3ePTj4C4k4QURYr-/view?usp=sharing) | [AM solutions]() [PM solutions]() | 
+| **Day 3** (Wednesday) | Review and cover more detail on arrays. Mini-projects on data cleaning, exploration, and basic visualization with the `badhealth` and `hepatocellular` datasets. | [Wednesday AM]() | [Wednesday PM]() | [Day 3 cheatsheet](https://drive.google.com/file/d/1s_DL4l23ihlWRFca5E0odreIUEcvXe7z/view?usp=sharing) | [AM solutions]() [PM solutions]()| 
+| **Day 4** (Thursday) | Introduction to `pandas` operations: indexing, slicing, querying, filtering, merging. Exploration of the `clinvar` dataset.| [Thursday AM]() | [Thursday PM]() | [Day 4 cheatsheet](https://drive.google.com/file/d/1Fc9Obxer6ymy2gGVrVLJJ7SmVniFy8Rj/view?usp=sharing) | [AM solutions]() [PM solutions]() |
+| **Day 5 Option 1** (Friday) | Introduction to Machine Learning and running Python locally | [Friday AM]() | [Friday PM]() | [Day 5 cheatsheet]() | [AM solutions]() [PM solutions]() |
+| **Day 5 Option 2** (Friday) | Individual projects | [Project notebook (for AM and PM)]() | N/A | N/A | [Project solutions]() |
 
 ## Datasets
 All datasets used in these materials are derived from publicly available data.
@@ -60,7 +61,7 @@ All datasets used in these materials are derived from publicly available data.
 | WBCD | [Wisconsin Breast Cancer Dataset](https://archive.ics.uci.edu/dataset/17/breast+cancer+wisconsin+diagnostic)
 
 ## FAQs
-Find answers [here](https://ccb.berkeley.edu/ccb-bioinformatics-bootcamp-january-2022-faq/).
+Find answers [here]([https://ccb.berkeley.edu/ccb-bioinformatics-bootcamp-january-2022-faq/](https://ccb.berkeley.edu/outreach/workshops-and-bootcamps/python-bootcamp/ccb-python-bootcamp-faq).
 
 ## Authorship
 Monday-Thursday notebooks and curriculum were developed by [Stacy Li](stacy.li) in Summer 2022, with exercises contributed by PyCamp staff in the years following. Pre-2022 notebooks were developed by previous generations of PyCamp staff. Day 5 notebook was developed by Prakruthi Burra (prakruthi_burra@berkeley.edu) and Carmelle Catamura (carmelle@berkeley.edu)
