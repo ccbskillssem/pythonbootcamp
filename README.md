@@ -61,7 +61,7 @@ All datasets used in these materials are derived from publicly available data.
 | WBCD | [Wisconsin Breast Cancer Dataset](https://archive.ics.uci.edu/dataset/17/breast+cancer+wisconsin+diagnostic)
 
 ## FAQs
-Find answers [here]([https://ccb.berkeley.edu/ccb-bioinformatics-bootcamp-january-2022-faq/](https://ccb.berkeley.edu/outreach/workshops-and-bootcamps/python-bootcamp/ccb-python-bootcamp-faq).
+Find answers [here](https://ccb.berkeley.edu/outreach/workshops-and-bootcamps/python-bootcamp/ccb-python-bootcamp-faq).
 
 ## Authorship
 Monday-Thursday notebooks and curriculum were developed by [Stacy Li](stacy.li) in Summer 2022, with exercises contributed by PyCamp staff in the years following. Pre-2022 notebooks were developed by previous generations of PyCamp staff. Day 5 notebook was developed by Prakruthi Burra (prakruthi_burra@berkeley.edu) and Carmelle Catamura (carmelle@berkeley.edu)
