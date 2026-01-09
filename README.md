@@ -35,7 +35,7 @@ Link to the zoom is [here](https://berkeley.zoom.us/j/94560027312). Lectures are
 
 ## Slack
 
-Make sure to sign up for our slack [here](). All PyCamp-related communication will be done through slack.
+Make sure to sign up for our slack [here](https://join.slack.com/t/pycampwinter26/shared_invite/zt-3mvgwk2wz-YKG5veW~7xX2InVjYTxFXg). All PyCamp-related communication will be done through slack.
 
 ## Lecture notebooks
 Each notebook is intended to be a lesson on a particular unit of Python. 
