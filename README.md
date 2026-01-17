@@ -29,7 +29,7 @@ Link to the zoom is [here](https://berkeley.zoom.us/j/94560027312). Lectures are
 | Tuesday | [recording](https://berkeley.zoom.us/rec/share/21tAdJheLEfamkLof9CGa8uRDS5yGIDtWCIhI0XUBEcPjmisyV49MvpzL9VjEcQD.DOFb08V9YJuGJl5Y) | K^@n=5hd
 | Wednesday | [recording](https://berkeley.zoom.us/rec/share/KRjJhvelcm-2MWnSNxlkg_t7Wdg_OD4o0TdfwPQjDVtEzFj5aU_9WZWKxeBHsCGJ.ENjUFBX2mhMxFkh2)| Gk046z%.
 | Thursday | [recording](https://berkeley.zoom.us/rec/share/rHRpbetnE_imj2cbHgP8yK5bMZP11xKHp1CPslvVGYRhY5TnMWkGn6BFYNtswZ1k.XcPHTyCc85sM7U6J) | *Bg4%5c=
-| Friday | [recording]() | 
+| Friday | [recording](https://berkeley.zoom.us/rec/share/8rC0CvuFMpknXPMV9swMkget_AnMbuEYJD_A8VqS_oxBoFQNKWytvh1j7NpekyhG.2rmgF09RHzZxkGNM) | 6aV9p%HR
 
 
 
@@ -47,7 +47,7 @@ Each notebook is intended to be a lesson on a particular unit of Python.
 | **Day 3** (Wednesday) | Review and cover more detail on arrays. Mini-projects on data cleaning, exploration, and basic visualization with the `badhealth` and `hepatocellular` datasets. | [Wednesday AM](https://drive.google.com/file/d/1kugo2Tv4oaBMlZM6Zx4KLX_vcGe_i67M/view?usp=sharing) | [Wednesday PM](https://drive.google.com/file/d/1GOuN5bbmMS3Nd8B6H08TKZF9x1-bqpU7/view?usp=sharing) | [Day 3 cheatsheet](https://drive.google.com/file/d/1s_DL4l23ihlWRFca5E0odreIUEcvXe7z/view?usp=sharing) | [AM solutions](https://drive.google.com/file/d/1sODHMM5aHB76jGmFsVUIXbvrkK_6UkfN/view?usp=sharing) [PM solutions](https://drive.google.com/file/d/1BUGy9U_QunGg1ooJtzl4ggCdTlnT7ki1/view?usp=sharing)| 
 | **Day 4** (Thursday) | Introduction to `pandas` operations: indexing, slicing, querying, filtering, merging. Exploration of the `clinvar` dataset.| [Thursday AM](https://drive.google.com/file/d/1b9A54FXAkmiBdq_RUCMybOcC5FW1fRPs/view?usp=sharing) | [Thursday PM](https://drive.google.com/file/d/1Wr7mI4HxbPmXQNDPhYuMoi6dKzM5fLAx/view?usp=sharing) | [Day 4 cheatsheet](https://drive.google.com/file/d/1Fc9Obxer6ymy2gGVrVLJJ7SmVniFy8Rj/view?usp=sharing) | [AM solutions](https://drive.google.com/file/d/1HstYdcGxUukp9Ky2xmR9VXG6NKfQ0FYq/view?usp=sharing) [PM solutions](https://drive.google.com/file/d/1spiLs6V_GPykL2vPKGLZQojO0elmVdc-/view?usp=sharing) |
 | **Day 5 Option 1** (Friday) | Introduction to Machine Learning and running Python locally | [ML notebook (for AM and PM)](https://colab.research.google.com/drive/19AxYdHAPsBZGQ9EUGcXn11D_im6ifOIX?usp=sharing) | N/A | [Day 5 slides](https://docs.google.com/presentation/d/16QPgQXNM7tPTJPFcJGkPntz3kcsN8XFxIV-Rjkpnje0/edit?usp=sharing) | [solutions]() |
-| **Day 5 Option 2** (Friday) | Individual projects | [Project notebook (for AM and PM)](https://drive.google.com/file/d/18aioQFM-zZ0TwcT-PYATcuW97BP6gazU/view?usp=sharing) | N/A | N/A | [Project solutions]() |
+| **Day 5 Option 2** (Friday) | Individual projects | [Project notebook (for AM and PM)](https://drive.google.com/file/d/18aioQFM-zZ0TwcT-PYATcuW97BP6gazU/view?usp=sharing) | N/A | N/A | [Project solutions](https://drive.google.com/file/d/1hml8bja2v53hfWMmo_XL5uigGyVttFI5/view?usp=sharing) |
 
 ## Datasets
 All datasets used in these materials are derived from publicly available data.
