@@ -25,17 +25,17 @@ Link to the zoom is [here](https://berkeley.zoom.us/j/94560027312). Lectures are
 
 | Day | Zoom recording | password |
 | ---- | ------ | ------ |
-| Monday | [recording](https://berkeley.zoom.us/rec/share/jdapyrpTkJVonB6Mq_xEbG7hbP84tftY6i4VeUuOYRGpGEjBfnopNYYWSQUuiPZ7.3QWLWojGnIwm-EHn)| 7=*Ydc60
-| Tuesday | [recording](https://berkeley.zoom.us/rec/share/21tAdJheLEfamkLof9CGa8uRDS5yGIDtWCIhI0XUBEcPjmisyV49MvpzL9VjEcQD.DOFb08V9YJuGJl5Y) | K^@n=5hd
-| Wednesday | [recording](https://berkeley.zoom.us/rec/share/KRjJhvelcm-2MWnSNxlkg_t7Wdg_OD4o0TdfwPQjDVtEzFj5aU_9WZWKxeBHsCGJ.ENjUFBX2mhMxFkh2)| Gk046z%.
-| Thursday | [recording](https://berkeley.zoom.us/rec/share/rHRpbetnE_imj2cbHgP8yK5bMZP11xKHp1CPslvVGYRhY5TnMWkGn6BFYNtswZ1k.XcPHTyCc85sM7U6J) | *Bg4%5c=
-| Friday | [recording](https://berkeley.zoom.us/rec/share/8rC0CvuFMpknXPMV9swMkget_AnMbuEYJD_A8VqS_oxBoFQNKWytvh1j7NpekyhG.2rmgF09RHzZxkGNM) | 6aV9p%HR
+| Monday | [recording]| 
+| Tuesday | [recording] | 
+| Wednesday | [recording] | 
+| Thursday | [recording] | 
+| Friday | [recording] | 
 
 
 
 ## Slack
 
-Make sure to sign up for our slack [here](https://join.slack.com/t/pycampwinter26/shared_invite/zt-3mvgwk2wz-YKG5veW~7xX2InVjYTxFXg). All PyCamp-related communication will be done through slack.
+Make sure to sign up for our slack [here](https://join.slack.com/t/ccbpycampsummer2026/shared_invite/zt-457atld6v-G2d4~DCxkno8_FoZS7tB0g). All PyCamp-related communication will be done through slack.
 
 ## Lecture notebooks
 Each notebook is intended to be a lesson on a particular unit of Python. 
