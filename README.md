@@ -11,7 +11,7 @@ This is a repository containing the notebooks, datasets, and visual assets for C
 ## Table of contents
 - [Lecture notebooks](#lecture-notebooks)
 - [Zoom](#zoom)
-- [recordings](#zoom-recordings)
+- [Recordings](#zoom-recordings)
 - [Slack](#slack)
 - [Datasets](#datasets)
 - [FAQs](#faqs)
